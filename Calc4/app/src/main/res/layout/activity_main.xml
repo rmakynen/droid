@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity"
+    >
+
+    <TableLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:id = "@+id/table1"
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "vertical"
+        >
+
+        <TableRow
+            android:id = "@+id/tableRow1"
+            android:padding = "5dip"
+            >
+
+            <TextView
+                android:id = "@+id/totalSum"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_weight = "1"
+                android:text = "@string/totalSum"
+                />
+        </TableRow>
+
+
+        <TableRow android:padding = "5dip">
+
+            <Button
+                android:id = "@+id/btn1"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_weight = "1"
+                android:text = "@string/btn1"
+                />
+
+            <Button
+                android:id = "@+id/btn2"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_weight = "1"
+                android:text = "@string/btn2"
+                />
+
+            <Button
+                android:id = "@+id/btn3"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_weight = "1"
+                android:text = "@string/btn3"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
